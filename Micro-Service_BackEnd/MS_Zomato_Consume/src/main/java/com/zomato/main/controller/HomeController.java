@@ -41,7 +41,7 @@ public class HomeController
 			Menu grdcrt = rt.postForObject(url, mn , Menu.class);
 			return grdcrt;
 		}
-		
+		System.out.println("gitdemo");
 		return null;	
 	}
 	
